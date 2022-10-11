@@ -15,3 +15,12 @@ if (!output) throw "Output container not found.";
 
 //@ts-check
 // your code starts after this line
+
+
+for (let n = 0; n <= 100; n += 2) {
+   output.append(n)
+   console.log(n);
+
+}
+
+

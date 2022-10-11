@@ -21,5 +21,17 @@ if (!output) throw "Output container not found.";
 /** @type {HTMLInputElement} */
 const input = document.getElementById("kilometers");
 const button = document.getElementById("calculate");
+let answer = (output)
 
-// your code starts after this line
+
+
+
+button?.addEventListener("calculate", function () {
+	input * 1.6 == answer
+});
+
+
+
+
+console.log()
+
